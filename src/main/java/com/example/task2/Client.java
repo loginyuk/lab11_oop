@@ -1,7 +1,5 @@
 package com.example.task2;
 
-import java.security.Principal;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

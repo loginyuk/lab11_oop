@@ -26,7 +26,7 @@ public class MailSender {
         }
     }
 
-    private void send(String email) throws MailjetException {
+    private void send(String email) throws MailjetException, MailjetSocketTimeoutException {
         MailjetClient client;
         MailjetRequest request;
         MailjetResponse response;
